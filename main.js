@@ -1,3 +1,24 @@
+// Get a reference to the navbar element
+const navbar = document.getElementById("navbar");
+
+// Get the initial position of the navbar
+const initialNavbarOffset = navbar.offsetTop;
+
+// Function to make the navbar sticky
+function makeNavbarSticky() {
+    if (window.pageYOffset >= initialNavbarOffset) {
+        navbar.classList.add("sticky");
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
+
+// Attach the makeNavbarSticky function to the window's scroll event
+window.onscroll = makeNavbarSticky;
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Get the home button element by its id
     var homeButton = document.getElementById('home-button');
