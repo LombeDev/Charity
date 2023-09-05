@@ -1,4 +1,22 @@
- AOS.init({
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the home button element by its id
+    var homeButton = document.getElementById('home-button');
+
+    // Add a click event listener to the home button
+    homeButton.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default link behavior
+        // Scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // This makes the scrolling smooth, but it's optional
+        });
+    });
+});
+
+
+
+
+AOS.init({
  	duration: 800,
  	easing: 'slide'
  });
