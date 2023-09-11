@@ -1,11 +1,8 @@
-/* Style for the navbar */
-.navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    /* Set position to sticky and specify the distance from the top */
-    position: sticky;
-    top: 0;
+.navbar-expand, .navbar-expand-xl {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Set your desired background color */
+  justify-content: flex-start; /* Your existing styles */
 }
 
 
