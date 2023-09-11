@@ -1,12 +1,13 @@
-/* Add this CSS to your stylesheet */
-#ftco-navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  background-color: #fff; /* Set the background color to white */
-  /* Add other styles as needed, like padding, text color, etc. */
+/* Style for the navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    /* Set position to sticky and specify the distance from the top */
+    position: sticky;
+    top: 0;
 }
+
 
 
 
