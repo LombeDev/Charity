@@ -1,3 +1,12 @@
+window.addEventListener("scroll", function() {
+  var scrollTop = window.scrollY;
+  var scrollHeight = document.documentElement.scrollHeight;
+  var progress = scrollTop / scrollHeight * 100;
+
+  document.querySelector(".progress-bar-inner").style.width = progress + "%";
+});
+
+
 // Get a reference to the navbar element
 const navbar = document.getElementById("navbar");
 
