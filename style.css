@@ -1,12 +1,3 @@
-#cancel-button {
-  display: none;
-}
-
-#bars-menu:hover #cancel-button {
-  display: block;
-}
-
-
 .progress-bar {
   width: 100%;
   height: 4px;
