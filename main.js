@@ -1,3 +1,8 @@
+document.getElementById('bars-menu').addEventListener('click', function() {
+  document.getElementById('cancel-button').style.display = 'block';
+});
+
+
 window.addEventListener("scroll", function() {
   var scrollTop = window.scrollY;
   var scrollHeight = document.documentElement.scrollHeight;
