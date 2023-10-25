@@ -1,3 +1,28 @@
+.hero-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-wrap .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 3s ease-in-out;
+}
+
+.hero-wrap .image.active {
+  transform: translateX(0);
+}
+
+.hero-wrap .image.inactive {
+  transform: translateX(-100%);
+}
+
+
+
+
 .progress-bar {
   width: 100%;
   height: 4px;
