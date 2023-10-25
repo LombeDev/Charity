@@ -1,26 +1,3 @@
-var heroImages = document.querySelectorAll('.hero-wrap .image');
-var currentImageIndex = 0;
-
-function carousel() {
-  currentImageIndex++;
-  if (currentImageIndex >= heroImages.length) {
-    currentImageIndex = 0;
-  }
-
-  for (var i = 0; i < heroImages.length; i++) {
-    if (i === currentImageIndex) {
-      heroImages[i].classList.add('active');
-    } else {
-      heroImages[i].classList.remove('active');
-    }
-  }
-}
-
-setInterval(carousel, 3000); // Carousel every 3 seconds
-
-
-
-
 window.addEventListener("scroll", function() {
   var scrollTop = window.scrollY;
   var scrollHeight = document.documentElement.scrollHeight;
