@@ -28,7 +28,7 @@
   font-size: 2em;
 }
 
-.bx-menu {
+.bx.bx-menu {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -37,8 +37,8 @@
   position: relative;
 }
 
-.bx-menu:before,
-.bx-menu:after {
+.bx.bx-menu:before,
+.bx.bx-menu:after {
   content: "";
   display: block;
   width: 2px;
@@ -50,11 +50,11 @@
   background-color: #fff;
 }
 
-.bx-menu:before {
+.bx.bx-menu:before {
   transform: rotate(45deg);
 }
 
-.bx-menu:after {
+.bx.bx-menu:after {
   transform: rotate(-45deg);
 }
 
